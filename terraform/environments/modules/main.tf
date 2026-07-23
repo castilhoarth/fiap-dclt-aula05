@@ -12,7 +12,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "fiap-terraform-state-modules"
+    bucket  = "fiap-terraform-state-modules-arthur"
     key     = "modules/terraform.tfstate"
     region  = "us-east-1"
     encrypt = true
